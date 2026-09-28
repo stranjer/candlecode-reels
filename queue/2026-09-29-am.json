@@ -1,0 +1,16 @@
+{
+ "post": true,
+ "caption": "Diesel rolls back ₱7.57/L today (DOE). Nice relief.\nBut Brent jumped back above $100 overnight after Trump rejected Iran's 7-day Hormuz plan.\nPH pump prices move weekly, following world oil. Plan for the next adjustment, not today's.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #OilPrices #Diesel #PesoLife #TradeWithASystem",
+ "tag": "// market in 20s",
+ "footer": "Education only. Not financial advice.",
+ "bpm": 100,
+ "scenes": [
+  {"type": "hook", "dur": 2.4, "size": 120, "lines": [{"t": "Diesel -P7.57", "c": "green"}, {"t": "Brent: $100+", "c": "red"}]},
+  {"type": "text", "dur": 3.0, "lines": [{"t": "Rollback today.", "c": "fg"}, {"t": "Pero oil jumped overnight.", "c": "red"}]},
+  {"type": "stat", "dur": 3.0, "label": "Iran's offer to reopen Hormuz", "value": "7 days", "note": "Rejected. Brent back above $100.", "c": "red"},
+  {"type": "bars", "dur": 6.0, "title": "Diesel this month", "subtitle": "per liter, DOE data", "rows": [{"l": "Sept hikes", "v": 18.31, "vl": "+P18.31", "lc": "fg", "bc": "red"}, {"l": "Rollback", "v": 7.57, "vl": "-P7.57", "lc": "fg", "bc": "green"}]},
+  {"type": "code", "dur": 4.0, "lines": [{"t": "if (rollback) {", "c": "fg"}, {"t": "  plan(next_week);", "c": "green"}, {"t": "}", "c": "fg"}]},
+  {"type": "text", "dur": 3.2, "lines": [{"t": "Rollback = pause.", "c": "fg"}, {"t": "Not a trend.", "c": "green"}]},
+  {"type": "end", "dur": 2.2, "line": "// trade with a system, not a feeling"}
+ ]
+}
