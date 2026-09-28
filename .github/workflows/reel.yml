@@ -1,1 +1,79 @@
+name: Render and post Reel
+
+on:
+  push:
+    paths:
+      - "queue/**.json"
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Path to a spec JSON in queue/ to render and post"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      FB_PAGE_ID: "2216631998564182"
+      FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+      GRAPH_VERSION: v25.0
+      FONT_DIR: ${{ github.workspace }}/fonts
+      MONO_FONT: /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find new specs
+        id: find
+        run: |
+          if [ -n "${{ github.event.inputs.spec }}" ]; then
+            echo "${{ github.event.inputs.spec }}" > specs.txt
+          else
+            git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'queue/*.json' > specs.txt || true
+          fi
+          cat specs.txt
+          echo "count=$(grep -c . specs.txt || true)" >> "$GITHUB_OUTPUT"
+
+      - name: Install tools
+        if: steps.find.outputs.count != '0'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q pillow numpy requests
+          mkdir -p fonts
+          for w in Bold Regular Medium Light; do
+            curl -fsSL -o fonts/Poppins-$w.ttf "https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-$w.ttf"
+          done
+
+      - name: Render and post
+        if: steps.find.outputs.count != '0'
+        run: |
+          mkdir -p out
+          while read -r spec; do
+            [ -z "$spec" ] && continue
+            name=$(basename "$spec" .json)
+            echo "::group::$name"
+            python3 reel.py "$spec" "out/$name.mp4"
+            caption=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('caption',''))" "$spec")
+            post=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('post',True))" "$spec")
+            if [ "$post" = "True" ]; then
+              python3 post_reel.py "out/$name.mp4" "$caption"
+            else
+              echo "post=false, render only"
+            fi
+            echo "::endgroup::"
+          done < specs.txt
+
+      - name: Keep the videos
+        if: always() && steps.find.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reels
+          path: out/*.mp4
+          retention-days: 14
 
