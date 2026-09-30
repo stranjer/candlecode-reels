@@ -1,0 +1,11 @@
+{"post": true, "caption": "US inflation (PCE) for August came in at 3.4% vs 3.7% expected. Core: 3.0% vs 3.3%.\nPero part of the drop came from the BEA changing how it measures some service prices, retroactive to 2021.\nMarkets cut their bets on an October Fed hike. The fine print still matters.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #MarketIn20Seconds #Inflation #FedWatch #TradingPH", "tag":"// market in 20s","footer":"Education only. Not financial advice.","bpm":100,"scenes":[
+{"type":"hook","dur":2.4,"size":140,"lines":[{"t":"3.4%","c":"green"},{"t":"not 3.7%","c":"fg"}]},
+{"type":"text","dur":2.8,"lines":[{"t":"US inflation cooled","c":"fg"},{"t":"more than expected.","c":"green"}]},
+{"type":"text","dur":2.6,"lines":[{"t":"Pero may fine print.","c":"red"},{"t":"Stay for it.","c":"muted"}]},
+{"type":"bars","dur":5,"title":"US PCE inflation, Aug","subtitle":"forecast vs actual, year on year","rows":[{"l":"Headline, est.","v":3.7,"vl":"3.7%","lc":"muted","bc":"red"},{"l":"Headline, actual","v":3.4,"vl":"3.4%","lc":"fg","bc":"green"},{"l":"Core, est.","v":3.3,"vl":"3.3%","lc":"muted","bc":"red"},{"l":"Core, actual","v":3.0,"vl":"3.0%","lc":"fg","bc":"green"}]},
+{"type":"stat","dur":3,"label":"why it matters here","value":"Oct hike?","size":150,"note":"Bets on another Fed hike fell. That usually eases peso pressure.","c":"green"},
+{"type":"text","dur":3.2,"lines":[{"t":"The twist:","c":"red"},{"t":"BEA changed","c":"fg"},{"t":"the math.","c":"fg"}]},
+{"type":"text","dur":3,"lines":[{"t":"Headlines move prices.","c":"fg"},{"t":"Fine print moves systems.","c":"green"}]},
+{"type":"code","dur":4,"lines":[{"t":"if (headline) {","c":"fg"},{"t":"  read_fine_print();","c":"green"},{"t":"}","c":"fg"}]},
+{"type":"end","dur":2.2,"line":"// trade with a system, not a feeling"}
+]}
