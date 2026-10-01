@@ -1,0 +1,10 @@
+{"post": true, "caption": "Most traders pick the size first, then squeeze the stop to fit. That's backwards.\nDecide your risk (say 1% of the account), place the stop where the setup is proven wrong, then let the math pick the size.\nPosition size = risk amount / stop distance. Wider stop, smaller size. Same pain if wrong.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #TraderMath #PositionSizing #RiskManagement #TradingPH", "tag": "// trader math", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.4, "size": 120, "lines": [{"t": "250 UNITS.", "c": "green"}, {"t": "OR JUST 50?", "c": "red"}]},
+{"type": "text", "dur": 3.0, "lines": [{"t": "Same P500 risk.", "c": "fg"}, {"t": "Stop lang ang iba.", "c": "muted"}]},
+{"type": "code", "dur": 4.5, "lines": [{"t": "account = 50000;", "c": "fg"}, {"t": "risk = account * 0.01;", "c": "fg"}, {"t": "// risk = 500", "c": "muted"}, {"t": "size = risk / stop;", "c": "green"}]},
+{"type": "bars", "dur": 6.0, "title": "P500 risk, 3 stops", "subtitle": "P50k account, 1% risk per trade", "rows": [{"l": "P2 stop", "v": 250, "vl": "250 units", "lc": "fg", "bc": "green"}, {"l": "P5 stop", "v": 100, "vl": "100 units", "lc": "fg", "bc": "green"}, {"l": "P10 stop", "v": 50, "vl": "50 units", "lc": "fg", "bc": "green"}]},
+{"type": "stat", "dur": 2.8, "label": "if any of those stops gets hit", "value": "-P500", "note": "Same 1%. Every time.", "c": "red"},
+{"type": "text", "dur": 3.0, "lines": [{"t": "Wider stop?", "c": "fg"}, {"t": "Smaller size.", "c": "green"}]},
+{"type": "code", "dur": 3.5, "lines": [{"t": "// not: size = feeling;", "c": "muted"}, {"t": "size = risk / stop;", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "// trade with a system, not a feeling"}
+]}
