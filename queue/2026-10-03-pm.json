@@ -1,0 +1,10 @@
+{"post": true, "caption": "A high win rate feels safe. It isn't, if your losses are bigger than your wins.\nBreak-even win rate = 1 / (1 + reward-to-risk). At 2:1 you only need about 33%. At 3:1, 25%.\nTrack both numbers in your journal: how often you win, and how much.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #TraderMath #RiskReward #RiskManagement", "tag": "TRADER MATH", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.4, "size": 120, "lines": [{"t": "WIN 70%.", "c": "fg"}, {"t": "STILL LOSING.", "c": "red"}]},
+{"type": "text", "dur": 2.8, "size": 92, "lines": [{"t": "Win 40%?", "c": "fg"}, {"t": "Still up.", "c": "green"}, {"t": "Here's the math.", "c": "muted"}]},
+{"type": "stat", "dur": 3.2, "label": "Trader A: 7 wins, 3 losses", "value": "-$200", "note": "Wins $100. Losses $300.", "c": "red"},
+{"type": "stat", "dur": 3.2, "label": "Trader B: 4 wins, 6 losses", "value": "+$200", "note": "Wins $200. Losses $100.", "c": "green"},
+{"type": "text", "dur": 2.6, "size": 88, "lines": [{"t": "Win rate is half.", "c": "fg"}, {"t": "Win size is", "c": "green"}, {"t": "the other half.", "c": "green"}]},
+{"type": "bars", "dur": 6.0, "title": "Win rate to break even", "subtitle": "by reward : risk, before costs", "rows": [{"l": "1 : 1", "v": 50, "vl": "50%", "lc": "fg", "bc": "red"}, {"l": "2 : 1", "v": 33.3, "vl": "33%", "lc": "fg", "bc": "green"}, {"l": "3 : 1", "v": 25, "vl": "25%", "lc": "fg", "bc": "green"}]},
+{"type": "text", "dur": 3.0, "size": 88, "lines": [{"t": "Don't just ask", "c": "fg"}, {"t": "how often you win.", "c": "fg"}, {"t": "Ask how much.", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "Trade with a system, not a feeling."}
+]}
