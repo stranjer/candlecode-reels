@@ -1,0 +1,10 @@
+{"post": true, "caption": "The US added just 29,000 jobs in September, far below forecasts.\nYet the Nasdaq closed up 1.2% on Friday.\nTraders cut the odds of an October Fed rate hike from 64% to under 25%.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #WeeklyRecap #StockMarket #FederalReserve #TradingEducation", "tag": "WEEKLY RECAP", "footer": "Education only. Not financial advice.", "bpm": 100, "scenes": [
+{"type":"hook","dur":2.4,"size":140,"lines":[{"t":"29,000 JOBS.","c":"red"},{"t":"STOCKS ROSE.","c":"green"}]},
+{"type":"text","dur":2.6,"lines":[{"t":"Bad news. Green screens.","c":"fg"},{"t":"Here's why.","c":"muted"}]},
+{"type":"stat","dur":3,"label":"US jobs added in September","value":"29K","note":"Forecast was about 90K.","c":"red"},
+{"type":"bars","dur":5,"title":"Odds of an October Fed hike","subtitle":"CME FedWatch","rows":[{"l":"A week ago","v":64,"vl":"64%","lc":"fg","bc":"red"},{"l":"After jobs data","v":23,"vl":"<25%","lc":"fg","bc":"green"}]},
+{"type":"stat","dur":3,"label":"US 10-year Treasury yield","value":"5.28%","note":"Borrowing is still expensive.","c":"red"},
+{"type":"stat","dur":3,"label":"Oil per barrel","value":"$91","note":"You feel this at the pump.","c":"red"},
+{"type":"text","dur":3.6,"size":88,"lines":[{"t":"Markets don't trade headlines.","c":"fg"},{"t":"They trade expectations.","c":"green"}]},
+{"type":"end","dur":2.2,"line":"Trade with a system, not a feeling."}
+]}
