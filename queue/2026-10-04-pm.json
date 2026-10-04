@@ -1,0 +1,10 @@
+{"post": true, "caption": "A rule-breaking trade that wins is more dangerous than a good trade that loses. It teaches you the wrong lesson.\nEven a 55% win rate has about a 92% chance of 4 or more losses in a row somewhere in 100 trades. Streaks are normal, not a verdict.\nJudge yourself on whether you followed the plan, then close the charts and go live your life.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #TheLongGame #TradingPsychology #ProcessOverOutcome #RiskManagement", "tag": "THE LONG GAME", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.4, "size": 120, "lines": [{"t": "GOOD TRADE.", "c": "green"}, {"t": "LOST MONEY.", "c": "red"}]},
+{"type": "text", "dur": 2.8, "size": 92, "lines": [{"t": "Bad trade.", "c": "fg"}, {"t": "Made money.", "c": "fg"}, {"t": "Which hurts more?", "c": "muted"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "The lucky one.", "c": "fg"}, {"t": "It teaches you", "c": "red"}, {"t": "to break rules.", "c": "red"}]},
+{"type": "stat", "dur": 3.2, "label": "55% win rate, 100 trades", "value": "92%", "note": "odds of 4+ losses in a row.", "c": "red"},
+{"type": "bars", "dur": 6.0, "title": "Losing streaks happen", "subtitle": "55% win rate, odds in 100 trades", "rows": [{"l": "5+ in a row", "v": 64.7, "vl": "65%", "lc": "fg", "bc": "red"}, {"l": "6+ in a row", "v": 36.3, "vl": "36%", "lc": "fg", "bc": "red"}, {"l": "7+ in a row", "v": 17.9, "vl": "18%", "lc": "fg", "bc": "red"}]},
+{"type": "text", "dur": 3.2, "size": 92, "lines": [{"t": "One trade is noise.", "c": "fg"}, {"t": "A hundred trades", "c": "green"}, {"t": "is your real score.", "c": "green"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "Follow the plan.", "c": "fg"}, {"t": "Close the charts.", "c": "fg"}, {"t": "Be home for dinner.", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "Trade with a system, not a feeling."}
+]}
