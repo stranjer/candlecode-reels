@@ -1,0 +1,10 @@
+{"post": true, "caption": "Leverage doesn't change how far price moves. It changes how much of that move hits your margin.\nMove that wipes out your margin = 100% / leverage. In practice, liquidation comes even sooner because of maintenance margin and fees.\nDecide what you can afford to lose first. Then size the trade. Leverage comes last.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #TraderMath #Leverage #RiskManagement", "tag": "TRADER MATH", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.4, "size": 110, "lines": [{"t": "100x LEVERAGE.", "c": "fg"}, {"t": "1% MOVE.", "c": "red"}, {"t": "MARGIN GONE.", "c": "red"}]},
+{"type": "text", "dur": 2.8, "size": 92, "lines": [{"t": "Not bad luck.", "c": "fg"}, {"t": "Just math.", "c": "green"}, {"t": "Watch this.", "c": "muted"}]},
+{"type": "stat", "dur": 3.2, "label": "$100 margin at 100x", "value": "$10,000", "size": 170, "note": "That's your real position size.", "c": "green"},
+{"type": "stat", "dur": 3.0, "label": "price moves 1% against you", "value": "-$100", "note": "Your whole margin. Gone.", "c": "red"},
+{"type": "bars", "dur": 6.0, "title": "Move that wipes margin", "subtitle": "by leverage, before fees", "rows": [{"l": "5x", "v": 20, "vl": "20%", "lc": "fg", "bc": "green"}, {"l": "10x", "v": 10, "vl": "10%", "lc": "fg", "bc": "green"}, {"l": "20x", "v": 5, "vl": "5%", "lc": "fg", "bc": "red"}, {"l": "100x", "v": 1, "vl": "1%", "lc": "red", "bc": "red"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "Leverage isn't", "c": "fg"}, {"t": "the danger.", "c": "fg"}, {"t": "Your size is.", "c": "green"}]},
+{"type": "text", "dur": 2.8, "size": 80, "lines": [{"t": "Pick your risk first.", "c": "fg"}, {"t": "Leverage comes last.", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "Trade with a system, not a feeling."}
+]}
