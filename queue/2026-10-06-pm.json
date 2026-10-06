@@ -1,0 +1,11 @@
+{"post": true, "caption": "In early 1720, Isaac Newton sold his South Sea Company shares at a big profit.\nThen the price kept soaring. He bought back in at a much higher price, and reportedly lost about £20,000 when it crashed.\nThe lesson: your exit rules have to hold even when everyone else seems to be getting rich.\nBe honest: have you ever jumped back into a trade you already sold? Yes or no.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #StoryTime #TradingPsychology #FOMO #MarketHistory", "tag": "STORY TIME", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.6, "size": 120, "lines": [{"t": "NEWTON SOLD.", "c": "green"}, {"t": "THEN BOUGHT", "c": "fg"}, {"t": "BACK IN.", "c": "red"}]},
+{"type": "text", "dur": 3.0, "size": 88, "lines": [{"t": "London, 1720.", "c": "muted"}, {"t": "South Sea Company", "c": "fg"}, {"t": "shares are flying.", "c": "fg"}]},
+{"type": "text", "dur": 3.0, "size": 88, "lines": [{"t": "He takes his profit", "c": "fg"}, {"t": "early. Smart.", "c": "green"}, {"t": "Then this happens.", "c": "muted"}]},
+{"type": "bars", "dur": 5.5, "title": "South Sea shares, 1720", "subtitle": "price per share", "rows": [{"l": "January", "v": 128, "vl": "£128", "lc": "fg", "bc": "green"}, {"l": "Summer peak", "v": 1050, "vl": "£1,050", "lc": "fg", "bc": "green"}, {"l": "September", "v": 175, "vl": "£175", "lc": "fg", "bc": "red"}]},
+{"type": "text", "dur": 3.0, "size": 88, "lines": [{"t": "Watching it climb", "c": "fg"}, {"t": "without him,", "c": "fg"}, {"t": "he buys back in.", "c": "red"}]},
+{"type": "stat", "dur": 3.0, "label": "peak to September", "value": "-83%", "note": "He rode it down.", "c": "red"},
+{"type": "text", "dur": 3.2, "size": 88, "lines": [{"t": "His first trade", "c": "fg"}, {"t": "had a plan.", "c": "green"}, {"t": "His second had FOMO.", "c": "red"}]},
+{"type": "text", "dur": 2.6, "size": 92, "lines": [{"t": "Being smart", "c": "fg"}, {"t": "isn't a system.", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "Trade with a system, not a feeling."}
+]}
