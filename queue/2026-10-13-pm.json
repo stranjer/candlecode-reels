@@ -1,0 +1,11 @@
+{"post": true, "caption": "In 2010, a man in Florida paid 10,000 bitcoin for two pizzas. Back then, all that bitcoin was worth only about $41.\nToday, those same 10,000 bitcoin are worth billions of pesos.\nHe didn't know that would happen. Nobody did. Nobody can see tomorrow's price, so only use money you won't miss.\nDid you know this story? Yes or no.\n\nEducation only. Not financial advice.\n\n#CandleAndCode #StoryTime #Bitcoin #MarketHistory #TradingForBeginners", "tag": "STORY TIME", "footer": "Education only. Not financial advice.", "bpm": 92, "scenes": [
+{"type": "hook", "dur": 2.4, "size": 120, "lines": [{"t": "2 PIZZAS.", "c": "fg"}, {"t": "NOW WORTH", "c": "fg"}, {"t": "BILLIONS.", "c": "red"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "Year 2010.", "c": "muted"}, {"t": "A man in Florida", "c": "fg"}, {"t": "wants pizza.", "c": "fg"}]},
+{"type": "text", "dur": 3.2, "size": 92, "lines": [{"t": "He pays with bitcoin.", "c": "green"}, {"t": "Bitcoin is", "c": "fg"}, {"t": "internet money.", "c": "fg"}]},
+{"type": "stat", "dur": 3.0, "label": "back then, all of it was about", "value": "2,000", "note": "pesos. Just pizza money.", "c": "green"},
+{"type": "bars", "dur": 5.5, "title": "Same 10,000 bitcoin", "subtitle": "what it was worth", "rows": [{"l": "2010", "v": 1, "vl": "2,000 PESOS", "lc": "fg", "bc": "green"}, {"l": "Today", "v": 100, "vl": "BILLIONS OF PESOS", "lc": "fg", "bc": "green"}]},
+{"type": "text", "dur": 3.0, "size": 96, "lines": [{"t": "Did he know?", "c": "fg"}, {"t": "No.", "c": "red"}, {"t": "Nobody did.", "c": "fg"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "Nobody can see", "c": "fg"}, {"t": "tomorrow's price.", "c": "green"}]},
+{"type": "text", "dur": 3.0, "size": 92, "lines": [{"t": "So only use money", "c": "fg"}, {"t": "you won't miss.", "c": "green"}]},
+{"type": "end", "dur": 2.2, "line": "Trade with a system, not a feeling."}
+]}
